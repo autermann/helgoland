@@ -28,7 +28,7 @@
     "jquery": "^3.2.1",
     "leaflet": "^0.7.7",
     "leaflet.markercluster": "0.4.0",
-    "n52-sensorweb-client-core": "github:52North/sensorweb-client-core#new-timeseries",
+    "n52-sensorweb-client-core": "github:52North/sensorweb-client-core#PlatformTypes",
     "ng-table": "0.8.3",
     "plotly.js": "^1.28.3",
     "qr-js": "1.1.4",
@@ -79,7 +79,7 @@
     "docker:build": "docker build -t helgoland:latest -f Dockerfile-local .",
     "docker:run": "docker run -p 8001:80 helgoland",
     "prod": "http-server dist -p 8000 -c-1",
-    "server": "webpack-dev-server --history-api-fallback --inline --progress",
+    "server": "./node_modules/.bin/webpack-dev-server --history-api-fallback --inline --progress",
     "start": "npm run server",
     "test": "karma start",
     "test-watch": "karma start --auto-watch --no-single-run"
