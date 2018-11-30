@@ -4,16 +4,16 @@
   "version": "1.0.0",
   "author": "Jan Schulte",
   "bugs": {
-    "url": "https://github.com/52North/sensorweb-thin-client/issues"
+    "url": "https://github.com/52North/helgoland/issues"
   },
   "dependencies": {
-    "Flot": "github:flot/flot",
+    "Flot": "flot/flot#semver:^0.8.3",
     "angular": "^1.6.5",
     "angular-loader": "^1.6.5",
     "angular-local-storage": "^0.6.0",
     "angular-resource": "^1.6.5",
     "angular-sanitize": "^1.6.5",
-    "angular-translate": "^2.15.1",
+    "angular-translate": "~2.11.0",
     "angular-translate-loader-static-files": "^2.15.1",
     "angular-ui-bootstrap": "^2.5.0",
     "angular-ui-notification": "^0.3.5",
@@ -23,16 +23,17 @@
     "d3": "^3.5.17",
     "d3-extended": "^1.2.10",
     "bootstrap-slider": "^9.8.1",
-    "flot-downsample": "github:janschulte/flot-downsample",
+    "flot-downsample": "janschulte/flot-downsample",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "leaflet": "^0.7.7",
     "leaflet.markercluster": "0.4.0",
-    "n52-sensorweb-client-core": "github:52North/sensorweb-client-core#hack/PlatformTypes",
+    "n52-sensorweb-client-core": "52North/sensorweb-client-core#hack/PlatformTypes",
     "ng-table": "0.8.3",
     "plotly.js": "^1.28.3",
     "qr-js": "1.1.4",
-    "ui-leaflet": "github:janschulte/ui-leaflet#master"
+    "ui-leaflet": "janschulte/ui-leaflet#master",
+    "moment": "2.10.3"
   },
   "devDependencies": {
     "angular-mocks": "^1.6.5",
@@ -53,6 +54,7 @@
     "karma": "^1.1.0",
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "jasmine-core": "^2.8.0",
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.31",
